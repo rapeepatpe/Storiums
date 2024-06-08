@@ -1,0 +1,18 @@
+.CampaignCard-campaign-container{
+    display : flex;
+    flex-direction : row;
+}
+
+.CampaignCard-campaign-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #7C7C81;
+}
+
+.CampaignCard-campaign-Input {
+    position: absolute;
+    right: 20vw;
+}

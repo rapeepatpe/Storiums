@@ -1,0 +1,39 @@
+.HeaderTag-container {
+    box-sizing: border-box;
+    background: #FEFCF8;
+    border: 1px solid #A8A9AE;
+    border-radius: 15px;
+
+    
+}
+
+
+.HeaderTag-text {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #7F838D;
+    margin: 24px;
+    
+}
+
+.HeaderTag-text-red {
+    text-align: center;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #9B4444;
+    margin: 24px;
+}
+
+.HeaderTag-container-red {
+    box-sizing: border-box;
+    background: #FEFCF8;
+    border: 1px solid #9B4444;
+    border-radius: 15px;
+}

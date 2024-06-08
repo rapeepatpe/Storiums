@@ -1,0 +1,66 @@
+.ItemCard-container {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #7C7C81;
+    border-radius: 35px;
+    box-sizing: border-box;
+    padding: 24px;
+    background-color: #FEFCF8;
+}
+
+/* Rectangle 4 */
+
+
+
+
+
+.ItemCard-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+
+    color: #7E848D;
+}
+
+.ItemCard-text-container{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap: 20px;
+    margin-top:20px;
+}
+
+.ItemCard-qty-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+
+}
+
+.ItemCard-qty-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #7E848D;
+}
+
+.ItemCard-image {
+    width: 30vw;
+    height: auto;
+    max-width: 400px;
+    max-height: 380px;
+}
+
+
+
+
+

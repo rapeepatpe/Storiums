@@ -2,17 +2,31 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": ".",
   "dependencies": {
+    "@capacitor/core": "^5.7.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.10",
+    "@mui/material": "^5.15.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.3",
+    "env-cmd": "^10.1.0",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
+    "react-number-format": "^5.3.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "start:sit": "env-cmd -f sit.env npm run start",
+    "start:uat": "env-cmd -f uat.env npm run start",
+    "start:prod": "env-cmd -f prod.env npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -34,5 +48,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.7.0",
+    "@testing-library/user-event": "^13.5.0"
   }
 }
