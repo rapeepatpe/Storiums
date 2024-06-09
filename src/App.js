@@ -219,6 +219,8 @@ function App() {
             return (
                 <div className="App-campaigns-card-container">
                     <div className="App-campaigns-category-container">
+
+
                         <CampaignCard Label="Percentage discount by item category" Type="Percentage" Discount={discountPercentageCategory} OnDiscountChanged={(e) => { handlePercentageCategoryDiscount(e); }} Disable={discountByPoint !== "" ? true : false} />
                         <div className="App-dropdown-container">
                             
