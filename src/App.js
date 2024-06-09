@@ -149,9 +149,12 @@ function App() {
         }
 
         if ((onEveryPrice !== 0 && onEveryPrice !== "") && (discountSpecialCampaign !== 0 && discountSpecialCampaign !== "")) {
-
             _calTotalDiscount = _calTotalDiscount - ((Math.floor(_calTotalDiscount / onEveryPrice)) * discountSpecialCampaign)
 
+        }
+
+        if(_calTotalDiscount < 0){
+            _calTotalDiscount = 0;
         }
 
         setTotalPriceAfterDiscount(_calTotalDiscount);
