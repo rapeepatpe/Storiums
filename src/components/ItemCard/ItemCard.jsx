@@ -40,9 +40,9 @@ function ItemCard(props) {
                 </div>
                 <div>
                     <InputCurrencyField 
-                        MaxAmount={99}
+                        MaxAmount={999}
                         AllowPoint={false}
-                        NumLength={2}
+                        NumLength={3}
                         DecLength={0}
                         DefaultValue={quantity}
                         OnTextChanged={(e) => { handleQTYChanged(e); }}

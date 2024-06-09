@@ -222,7 +222,7 @@ function App() {
                         <CampaignCard Label="Percentage discount by item category" Type="Percentage" Discount={discountPercentageCategory} OnDiscountChanged={(e) => { handlePercentageCategoryDiscount(e); }} Disable={discountByPoint !== "" ? true : false} />
                         <div className="App-dropdown-container">
                             
-                            <select className="App-dropdown" onChange={(e) => { handleSelectedCategory(e); }} >
+                            <select className="App-dropdown" value={currentCategory} onChange={(e) => { handleSelectedCategory(e); }} >
                                 <option className="App-dropdown"  value="Clothing">Clothing</option>
                                 <option className="App-dropdown"  value="Accessories">Accessories</option>
                                 <option className="App-dropdown"  value="Electronics">Electronics</option>
@@ -264,6 +264,7 @@ function App() {
         setDiscountPercentageCategory("");
         setOnEveryPrice("");
         setDiscountSpecialCampaign("");
+        setCurrentCategory("Clothing");
     }
 
 
